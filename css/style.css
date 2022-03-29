@@ -1,0 +1,19 @@
+.position{
+    width: 100%;
+    min-width: 300px;
+    max-width: 350px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: 43%;
+    transform: translateY(100%);
+    display: inline-block;
+}
+input{
+    width: 100%;
+    min-width: 220px;
+    max-width: 270;
+}
