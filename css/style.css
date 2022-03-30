@@ -107,10 +107,17 @@ input[type="submit"]{
  }
  form{
      text-align: center;
+     width: 100%;
+     box-sizing: border-box;
     }
 .button{
     width: 100%;
-    display: inline-block;
+    display: inline;
     text-align: center;
     background-color: #0095f6;
+}
+.botao{
+    width: 97%;
+    background-color: #a9a9a9;
+    margin: 5px;
 }
