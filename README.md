@@ -1,3 +1,3 @@
 # UI-instagram
-<p><span style="text-aligne: center;"> 🚧 Em construção 🚧 </span><p>
+<p><span style="text-align: center;"> 🚧 Em construção 🚧 </span><p>
 Cópia do layout do instagram
