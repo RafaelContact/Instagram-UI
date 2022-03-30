@@ -6,14 +6,64 @@
 }
 h1{
     text-align: center;
+    
 }
-hr{
-    width: 43%;
-    transform: translateY(100%);
-    display: inline-block;
+/*  
+h1 {
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap; 
+    
 }
+.title{
+    background-image: url(./asets/instag.png);
+    margin-bottom: 40px;
+    
+}*/
+
 input{
     width: 100%;
     min-width: 220px;
     max-width: 270;
 }
+input[type="submit"]{
+    /* este input é alterada a cor quando é colocado 6 digitos no input senha */
+    background-color: #0095f6;
+    border: 0px;
+    color: #ffffff;
+}
+hr{
+    width: 38%;
+    transform: translateY(100%);
+    display: inline-block;
+}
+.ou{
+    background-color: ;
+    color: #a9a9a9;
+    margin: 0px 18px 0px 18px;
+    display: inline-block;
+    border-left: 1px solid black;
+}
+/* Forma que o instagram faz para exibir a fonte depois de ocultar a fraze em caracteres
+
+@media not all, (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+.coreSpriteLoggedOutWordmark  {
+    background-size: 440px 411px;
+    background-position: 0 -129px;
+    background-image: url(/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png);
+}
+.coreSpriteLoggedOutWordmark {
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    height: 51px;
+    width: 175px;
+}
+}
+ */
+ .barrinha{
+     background-color: black;
+     position: relative;
+     width: 30px;
+     height: 30px;
+     display: inline-block;
+ }
