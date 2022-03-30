@@ -94,8 +94,7 @@ input[type="submit"]{
      font-size: 0.74em;
      text-align: center;
  }
- select{
-     
+ select{  
  }
  p{
      display: inline;
@@ -106,3 +105,12 @@ input[type="submit"]{
  .apps{
      text-align: center;
  }
+ form{
+     text-align: center;
+    }
+.button{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: #0095f6;
+}
