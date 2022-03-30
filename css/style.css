@@ -22,7 +22,7 @@ h1 {
 }*/
 
 input{
-    width: 100%;
+    width: 97%;
     min-width: 220px;
     max-width: 270;
 }
@@ -30,6 +30,7 @@ input[type="submit"]{
     /* este input é alterada a cor quando é colocado 6 digitos no input senha */
     background-color: #0095f6;
     border: 0px;
+    max-width: 100%;
     color: #ffffff;
 }
 hr{
@@ -38,11 +39,9 @@ hr{
     display: inline-block;
 }
 .ou{
-    background-color: ;
     color: #a9a9a9;
     margin: 0px 18px 0px 18px;
     display: inline-block;
-    border-left: 1px solid black;
 }
 /* Forma que o instagram faz para exibir a fonte depois de ocultar a fraze em caracteres
 
@@ -60,10 +59,19 @@ hr{
 }
 }
  */
+ input[type='submit']{
+     padding: 6px;
+     border: 2px;
+ }
+ input[type='text']{
+     max-width: 342px;
+ }
  .barrinha{
      background-color: black;
      position: relative;
-     width: 30px;
+     width: 30vw;
      height: 30px;
      display: inline-block;
+     max-width: 136px;
  }
+ /* projeto solicita qualificações tecnicas que ainda não estou apto para exercer */
