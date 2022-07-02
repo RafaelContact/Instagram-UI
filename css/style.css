@@ -9,6 +9,13 @@
     text-align: center;
     margin: auto;
 }
+.box{
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 350px;
+    background-color: blue;
+    margin: 2px solid #dbdbdb;
+}
 h1{
     text-align: center;
     overflow: hidden;
