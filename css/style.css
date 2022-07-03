@@ -107,26 +107,16 @@ input[type="submit"]{
 }
 }
  */
-.botao{
+.botonfacebook{
     margin-top: 30px;
-    margin-bottom: 15px;
-    width: 97%;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    background-image: url(/asets/facebook.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 25px;
     
 }
-.logofacebook{
-    transform: translate(0%, 30%);
-}
-.textfacebook{
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: #385185;
-}
-li{
-    font-size: 1rem;
-    text-align: center;
-    list-style-image: url(/asets/facebook.png);
- }
-
  p{
      display: inline;
  }
@@ -139,14 +129,19 @@ li{
      box-sizing: border-box;
      border: 1px solid #dbdbdb;
      padding: 20px;
+     margin-bottom: 35px;
+     font-size: 1.1rem;
  }
-
- /* CONFIGURAÇÕES DOS BOTÕES DE DOWNLOAD */
- .button{
-    width: 100%;
-    display: inline;
-    text-align: center;   
+.cadastro a {
+    color: #169ef6;
 }
+ /* CONFIGURAÇÕES DOS BOTÕES DE DOWNLOAD */
 .apps{
     text-align: center;
+}
+.getapp{
+    font-size: 1.1rem;
+}
+figure{
+    margin-top: 35px;
 }
