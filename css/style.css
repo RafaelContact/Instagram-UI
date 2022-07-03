@@ -1,7 +1,11 @@
 *{
+    
+    font-family: sans-serif;
+    
     margin: 0;
     padding: 0;
 }
+
 .position{
     width: 100%;
     min-width: 300px;
@@ -13,8 +17,10 @@
     margin: auto;
     box-sizing: border-box;
     max-width: 350px;
-    background-color: blue;
-    margin: 2px solid #dbdbdb;
+    border: 1px solid #dbdbdb;
+    margin-top: 40px;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 10px;
 }
 h1{
     text-align: center;
@@ -22,6 +28,15 @@ h1{
     text-indent: 110%;
     white-space: nowrap;
     
+}
+.logo{
+    background-image: url(../asets/instag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*  
 h1 {
@@ -37,37 +52,51 @@ h1 {
 }*/
 
 input{
-    width: 97%;
-    min-width: 220px;
+    width: 100%;
+    height: 36px;
+    padding: 9px 0px 7px 8px;
+    max-width: 268px;
     box-sizing: border-box;
+    margin-bottom: 5px;
+    border: 1px solid #dbdbdb;
     
 }
 input[type="submit"]{
     /* este input é alterada a cor quando é colocado 6 digitos no input senha */
-    background-color: #0095f6;
+    background-color: #b2dffc;
+    margin-top: 5px;
     border: 3px;
-    max-width: 100%;
     color: #ffffff;
     /* A opção de alteração do box sizing para content box muda configuração padrão que é borderbox, e agora eu consigo aumentar e diminuir meu botão comparando ele as outra aos outros inputs. Porem declarar todos como borderbox fica mais preciso */
+    width: 368px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+    
 }
 .barrinhas{
     max-width: 340px;
-    background-color: #0095f6;
+    
     margin-left: 5px;
 }
 .barrinha{
-    background-color: black;
+    background-color: #dbdbdb;
     position: relative;
-    width: 40vmin;
-    height: 3px;
+    width: 34.5%;
+    height: 1px;
     display: inline-block;
     max-width: 133px;
+    transform: translate( 0% , -400%);
 }
 .ou{
-    color: #a9a9a9;
+    color: rgb(142, 142, 142);
     margin: 0px 18px 0px 18px;
     display: inline-block;
     text-align: center;
+    font-weight: 600;
 }
 /* Forma que o instagram faz para exibir a fonte depois de ocultar a fraze em caracteres
 
@@ -87,13 +116,7 @@ input[type="submit"]{
  */
 
 /* projeto solicita qualificações tecnicas que ainda não estou apto para exercer */
- .logo{
-     background-image: url(../asets/instag.png);
-     background-repeat: no-repeat;
-     background-position: center;
-     width: 100%;
-     height: 50px;
- }
+
  a{
      text-decoration: none;
  }
@@ -101,13 +124,17 @@ input[type="submit"]{
      font-size: 0.74em;
      text-align: center;
  }
- select{  
- }
+
  p{
      display: inline;
  }
  .cadastro{
+     margin: auto;
      text-align: center;
+     width: 350px;
+     box-sizing: border-box;
+     border: 1px solid #dbdbdb;
+     padding: 20px;
  }
  .apps{
      text-align: center;
@@ -116,15 +143,23 @@ input[type="submit"]{
      text-align: center;
      width: 100%;
      box-sizing: border-box;
+     padding: 12px;
     }
+
+form a:hover{
+    color: #00376b;
+}
 .button{
     width: 100%;
     display: inline;
     text-align: center;
-    background-color: #0095f6;
+    
+    
 }
 .botao{
+    margin-top: 30px;
+    margin-bottom: 15px;
     width: 97%;
-    background-color: #a9a9a9;
-    margin: 5px;
+    background-color: #dbdbdb;
+    
 }
