@@ -79,7 +79,7 @@ input[type="submit"]{
 }
 .barrinhas{
     max-width: 340px;
-    
+    margin-top: 13px;
     margin-left: 5px;
 }
 .barrinha{
@@ -97,6 +97,7 @@ input[type="submit"]{
     display: inline-block;
     text-align: center;
     font-weight: 600;
+    font-size: 12px;
 }
 /* Forma que o instagram faz para exibir a fonte depois de ocultar a fraze em caracteres
 
@@ -146,8 +147,10 @@ input[type="submit"]{
      padding: 12px;
     }
 
-form a:hover{
+a:visited{
     color: #00376b;
+}
+
 }
 .button{
     width: 100%;
@@ -160,6 +163,12 @@ form a:hover{
     margin-top: 30px;
     margin-bottom: 15px;
     width: 97%;
-    background-color: #dbdbdb;
     
 }
+.logofacebook{
+    transform: translate(0%, 30%);
+}
+.textfacebook{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #385185;
