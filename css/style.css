@@ -144,4 +144,30 @@ input[type="submit"]{
 }
 figure{
     margin-top: 35px;
+    margin-bottom: 60px;
+    word-spacing: 0.4rem;
+}
+section{
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    word-spacing: 0.8rem;
+}
+section a {
+    color: gray;
+}
+section a:visited {
+    color: gray;
+}
+
+footer{
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+form select {
+    border: none;
+    background-color: #ffffff;
+    color: gray;
 }
