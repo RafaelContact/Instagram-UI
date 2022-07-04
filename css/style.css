@@ -1,5 +1,6 @@
 *{  
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
     
     margin: 0;
     padding: 0;
@@ -114,7 +115,7 @@ input[type="submit"]{
     background-image: url(/asets/facebook.png);
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-x: 25px;
+    background-position-x: 2.8rem;
     
 }
  p{
@@ -130,17 +131,18 @@ input[type="submit"]{
      border: 1px solid #dbdbdb;
      padding: 20px;
      margin-bottom: 35px;
-     font-size: 1.1rem;
+     font-size: 1.5rem;
  }
 .cadastro a {
     color: #169ef6;
+    font-weight: bold;
 }
  /* CONFIGURAÇÕES DOS BOTÕES DE DOWNLOAD */
 .apps{
     text-align: center;
 }
 .getapp{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 figure{
     margin-top: 35px;
@@ -149,9 +151,14 @@ figure{
 }
 section{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 10px;
     line-height: 2rem;
-    word-spacing: 0.8rem;
+    
+}
+section ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 0.5rem;
 }
 section a {
     color: gray;
@@ -170,4 +177,5 @@ form select {
     border: none;
     background-color: #ffffff;
     color: gray;
+    font-size: 1rem;
 }
