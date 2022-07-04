@@ -16,9 +16,10 @@ a:visited{
     box-sizing: border-box;
     max-width: 350px;
     border: 1px solid #dbdbdb;
-    margin-top: 40px;
+    background-color: #ffffff;
+    margin-top: 3.8rem;
     padding: 20px 30px 20px 30px;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 h1{
     text-align: center;
@@ -51,6 +52,7 @@ input{
     margin-bottom: 5px;
     border: 1px solid #dbdbdb;
     font-size: 1rem;
+    background-color: #fafafa;
     
 }
 input[type="submit"]{
@@ -134,7 +136,7 @@ input[type="submit"]{
      box-sizing: border-box;
      border: 1px solid #dbdbdb;
      padding: 20px;
-     margin-bottom: 35px;
+     margin-bottom: 2.2rem;
      font-size: 1.2rem;
  }
 .cadastro a {
@@ -149,7 +151,7 @@ input[type="submit"]{
     font-size: 1.2rem;
 }
 figure{
-    margin-top: 35px;
+    margin-top: 2.2rem;
     margin-bottom: 60px;
     word-spacing: 0.4rem;
 }
