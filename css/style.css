@@ -1,7 +1,5 @@
 *{  
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.0rem;
-    
+    font-family: Arial, Helvetica, sans-serif;  
     margin: 0;
     padding: 0;
 }
@@ -52,6 +50,7 @@ input{
     box-sizing: border-box;
     margin-bottom: 5px;
     border: 1px solid #dbdbdb;
+    font-size: 1rem;
     
 }
 input[type="submit"]{
@@ -90,7 +89,7 @@ input[type="submit"]{
     display: inline-block;
     text-align: center;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1.1rem;
 }
 /* Forma que o instagram faz para exibir a fonte depois de ocultar a fraze em caracteres
 
@@ -111,12 +110,17 @@ input[type="submit"]{
 .botonfacebook{
     margin-top: 30px;
     margin-bottom: 25px;
+    margin-left: 0.5rem;
     font-size: 1.2rem;
+    font-weight: 600;
     background-image: url(/asets/facebook.png);
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-x: 2.8rem;
+    background-position-x: 2.5rem;
     
+}
+.botonfacebook a {
+    color: #385158;
 }
  p{
      display: inline;
@@ -131,7 +135,7 @@ input[type="submit"]{
      border: 1px solid #dbdbdb;
      padding: 20px;
      margin-bottom: 35px;
-     font-size: 1.5rem;
+     font-size: 1.2rem;
  }
 .cadastro a {
     color: #169ef6;
@@ -153,6 +157,7 @@ section{
     text-align: center;
     font-size: 10px;
     line-height: 2rem;
+    font-size: 1.0rem;
     
 }
 section ul li {
