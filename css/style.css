@@ -189,7 +189,7 @@ form select {
     color: gray;
     font-size: 1rem;
 }
-.bottons{ 
+.botton{ 
     max-width: 85%;
     margin: auto;
     text-align: center;
@@ -203,6 +203,7 @@ form select {
     .cadastro{
         border: none;
         margin-top: 4.5rem;
+        margin-bottom: 5rem;
     }
     input{
         background-color: ;
@@ -212,5 +213,11 @@ form select {
     }
     section ul li{
        margin-left: 1rem;   
+    }
+}
+@media screen and (max-width: 375px) {
+    .cadastro{
+        margin-top: 0;
+        margin-bottom: 2rem;
     }
 }
