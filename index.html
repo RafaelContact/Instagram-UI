@@ -21,9 +21,9 @@
       <!-- https://www.instagram.com/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png -->
      
          <form action="" method="" name="">
-             <input type="e-mail" placeholder=" Telefone, nome do usuário ou email " name="" id=""><br>
-             <input type="password" placeholder="Senha"   name="" id=""><br>
-             <button class="show">Mostrar</button>
+             <input type="email" placeholder=" Telefone, nome do usuário ou email " name="" id=""><br>
+             <input type="password" id="pwd" placeholder="Senha"   name="" id=""><br>
+             <p id="show" onclick="change()"> Mostrar </p>
              <input type="submit"  value="Entrar "name="" id=""><br>
              <div class="barrinhas"> 
                   <div class="barrinha"></div>    
@@ -124,5 +124,33 @@
         </form>
         </footer>
     </div>
+    <script>
+        var pwd = window.document.getElementById('pwd') 
+        var value = pwd.value
+        var show = window.document.getElementById('show')
+
+        document.getElementById("value").addEventListener("click", function(){
+        if (pwd.value === "null" ){
+            document.getElementById("show").style.display = 'none';
+
+        }
+        else {
+            
+            console.log(pwd.value)
+        }
+        })
+        function change(){
+            
+            if ( pwd.type === 'password'){
+                    show.innerHTML = ('<p>Ocultar</p>')
+                    pwd.type = 'text';
+                }
+                else {
+                    pwd.type = 'password'
+                    show.innerHTML = ('<p>Mostrar</p>')
+                }  
+            }       
+    </script>
 </body>
+
 </html>

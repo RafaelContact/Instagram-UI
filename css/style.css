@@ -64,7 +64,7 @@ input{
     background-color: #fafafa;
     
 }
-.show{ 
+#show{ 
     position: absolute;
     right: 1.5rem;
     top: 5.0rem;
@@ -72,6 +72,7 @@ input{
     background-color: #fafafa;
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
 }
 input[type="submit"]{
     /* este input é alterada a cor quando é colocado 6 digitos no input senha */
@@ -191,13 +192,11 @@ section a {
 section a:visited {
     color: #8e8e8e;
 }
-
 footer{
     color: gray;
     margin-top: 1rem;
     margin-bottom: 4rem;
 }
-
 form select {
     border: none;
     background-color: #ffffff;
