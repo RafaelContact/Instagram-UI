@@ -62,7 +62,11 @@ input{
     border: 1px solid #dbdbdb;
     font-size: 1rem;
     background-color: #fafafa;
+    outline: none;
     
+}
+input::selection {
+    outline: 1px solid black;
 }
 #show{ 
     position: absolute;

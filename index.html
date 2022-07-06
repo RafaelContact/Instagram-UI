@@ -23,7 +23,7 @@
          <form action="" method="" name="">
              <input type="email" placeholder=" Telefone, nome do usuário ou email " name="" id=""><br>
              <input type="password" id="pwd" placeholder="Senha"   name="" id=""><br>
-             <p id="show" onclick="change()"> Mostrar </p>
+             <button id="show" onclick="change()"> Mostrar </button>
              <input type="submit"  value="Entrar "name="" id=""><br>
              <div class="barrinhas"> 
                   <div class="barrinha"></div>    
@@ -129,9 +129,13 @@
         var value = pwd.value
         var show = window.document.getElementById('show')
 
-        document.getElementById("value").addEventListener("click", function(){
-        if (pwd.value === "null" ){
-            document.getElementById("show").style.display = 'none';
+        document.getElementById("show").addEventListener("click", function(e){
+            e.preventDefault()
+        })
+
+        document.getElementById("value").addEventListener("click", function ocult(){
+        if (pwd.value === "" ){
+            document.querySelector('button#show').style.visitility = "hidden"
 
         }
         else {
