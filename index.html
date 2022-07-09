@@ -133,8 +133,10 @@
             e.preventDefault()
         })
 
-        document.getElementById("value").addEventListener("click", function ocult(){
-        if (pwd.value === "" ){
+        document.getElementById('value').addEventListener("click", ocult)
+        // como coletar um objeto ?
+        function ocult(){
+        if (pwd.value === null ){
             document.querySelector('button#show').style.visitility = "hidden"
 
         }
@@ -142,7 +144,7 @@
             
             console.log(pwd.value)
         }
-        })
+        }
         function change(){
             
             if ( pwd.type === 'password'){
