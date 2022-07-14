@@ -22,8 +22,8 @@
      
          <form action="" method="" name="">
              <input type="email" placeholder=" Telefone, nome do usuário ou email " name="" id=""><br>
-             <input type="password" id="pwd" placeholder="Senha"   name="" id=""><br>
-             <button id="show" onclick="change()"> Mostrar </button>
+             <input type="password" id="pwd" placeholder="Senha"><br>
+             <button id="show" onclick="change()" onclick="ocult()"> Mostrar </button>
              <input type="submit"  value="Entrar "name="" id=""><br>
              <div class="barrinhas"> 
                   <div class="barrinha"></div>    
@@ -124,38 +124,8 @@
         </form>
         </footer>
     </div>
-    <script>
-        var pwd = window.document.getElementById('pwd') 
-        var value = pwd.value
-        var show = window.document.getElementById('show')
-
-        document.getElementById("show").addEventListener("click", function(e){
-            e.preventDefault()
-        })
-
-        document.getElementById('value').addEventListener("click", ocult)
-        // como coletar um objeto ?
-        function ocult(){
-        if (pwd.value === null ){
-            document.querySelector('button#show').style.visitility = "hidden"
-
-        }
-        else {
+    <script src="./js/inputs.js">
             
-            console.log(pwd.value)
-        }
-        }
-        function change(){
-            
-            if ( pwd.type === 'password'){
-                    show.innerHTML = ('<p>Ocultar</p>')
-                    pwd.type = 'text';
-                }
-                else {
-                    pwd.type = 'password'
-                    show.innerHTML = ('<p>Mostrar</p>')
-                }  
-            }       
     </script>
 </body>
 
