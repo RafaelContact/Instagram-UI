@@ -17,11 +17,11 @@ function change(){
         show.innerHTML = "Mostrar"
     }
 }
+// tente armazenar dentro de um array
 
+pwd.addEventListener('input', keep)
 
-if (value.length == 0){
-    window.alert('olá')
+function keep(e){
+    var x = e.target.value
+    console.log(x)
 }
-if (value.lenght == !0){
-    window.alert('ocultar')
-}// Se eu não colocar esse teste dentro de uma função que monitora os valores de entrar ela não vai funcionar
