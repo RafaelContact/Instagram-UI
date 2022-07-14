@@ -21,7 +21,11 @@ function change(){
 
 pwd.addEventListener('input', keep)
 
-function keep(e){
+function keep(e){ // Está funcionando, mas não funciona no carregamento da página, só funciona quando o número fica zerado após apagar tudo
     var x = e.target.value
-    console.log(x)
+    if(x.length == 0 ){
+        show.innerHTML = ''
+    }else{
+        show.innerHTML = "Mostrar"
+    }
 }
