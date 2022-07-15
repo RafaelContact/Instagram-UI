@@ -19,6 +19,8 @@ function change(){
 }
 // tente armazenar dentro de um array
 
+
+
 pwd.addEventListener('input', keep)
 
 function keep(e){ // Está funcionando, mas não funciona no carregamento da página, só funciona quando o número fica zerado após apagar tudo
@@ -28,4 +30,7 @@ function keep(e){ // Está funcionando, mas não funciona no carregamento da pá
     }else{
         show.innerHTML = "Mostrar"
     }
+}
+function opa(){
+    show.innerHTML = ''
 }
