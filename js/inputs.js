@@ -1,6 +1,8 @@
 var pwd = window.document.getElementById('pwd')
 var value = pwd.value
 var show = window.document.getElementById('show')
+var submit = window.document.getElementById('submit')
+var email = window.document.getElementById('email')
 
 document.getElementById("show").addEventListener("click", function(e){
     e.preventDefault()
@@ -30,7 +32,13 @@ function keep(e){ // Está funcionando, mas não funciona no carregamento da pá
     }else{
         show.innerHTML = "Mostrar"
     }
+    if(x.length < 5){ // como fazer funcionar só carregando algum valor no email ?
+        submit.style.background = '#b2dffc'
+        //inserir também um prevent defalt
+    }else{
+        submit.style.background = '#0095F6'
+    }
 }
-function opa(){
+function loading(){
     show.innerHTML = ''
 }
