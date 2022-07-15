@@ -31,6 +31,10 @@ function keep(e){ // Está funcionando, mas não funciona no carregamento da pá
         show.innerHTML = ''
     }else{
         show.innerHTML = "Mostrar"
+        var aray = []
+        aray.push(x)
+        console.log(aray) // por que ele não cria outros elementos ? 
+    } 
     }
     if(x.length < 5){ // como fazer funcionar só carregando algum valor no email ?
         submit.style.background = '#b2dffc'
@@ -38,7 +42,7 @@ function keep(e){ // Está funcionando, mas não funciona no carregamento da pá
     }else{
         submit.style.background = '#0095F6'
     }
-}
+
 function loading(){
     show.innerHTML = ''
 }
